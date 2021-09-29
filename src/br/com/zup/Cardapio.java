@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Cardapio {
 
-        List<Pratos> cardapio = new ArrayList<>();
+        private final List<Pratos> cardapio = new ArrayList<>();
 
         public List<Pratos> getCardapio() {
                 return cardapio;
@@ -17,6 +17,6 @@ public class Cardapio {
 
         @Override
         public String toString() {
-                return cardapio + "\n|";
+                return "Cardapio{" + cardapio + "}";
         }
 }

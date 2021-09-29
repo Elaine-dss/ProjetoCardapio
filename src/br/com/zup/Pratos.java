@@ -2,8 +2,8 @@ package br.com.zup;
 
 public class Pratos {
 
-    String nome, ingredientes;
-    double valor;
+    private String nome, ingredientes;
+    private double valor;
 
     public Pratos(String nome, String ingredientes, double valor) {
         this.nome = nome;
@@ -38,6 +38,6 @@ public class Pratos {
     @Override
     public String toString() {
         return "|  ----->  " + nome + "  R$ " + valor +
-                "\n|  Ingredientes:" + ingredientes;
+                "\n|  Ingredientes: " + ingredientes;
     }
 }
